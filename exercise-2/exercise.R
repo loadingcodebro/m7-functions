@@ -17,9 +17,9 @@ print(answer)
 # "Your second vector is longer by N elements"
 DescribeDifference <- function(v1, v2) {
   if (length(v1) > length(v2)) {
-    return (paste("Your first vector is longer by ", CompareLength(v1, v2), "elements"))
+    return (paste("Your first vector is longer by", CompareLength(v1, v2), "elements"))
   } else {
-    return (paste("Your second vector is longer by ", CompareLength(v1, v2), "elements"))
+    return (paste("Your second vector is longer by", CompareLength(v1, v2), "elements"))
   }
 }
 
